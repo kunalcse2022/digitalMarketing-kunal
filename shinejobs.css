@@ -1,0 +1,849 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.my-nav{
+    background-color: rgb(255, 255, 255);
+    
+
+}
+
+
+ .dropdown:hover .dropdown-menu{
+     display: block;
+     
+}
+.dropdown-item{
+    transform-origin: top;
+    animation: rotate 1.5s ease 1;
+}
+
+
+
+@keyframes rotate{
+   0%{transform:  perspective(600px) rotatey(90deg); transform-origin: center;}
+   100%{transform: perspective(600px) rotatey(0deg); transform-origin: center;}
+}
+
+ 
+ 
+
+
+
+
+
+.my-nav .navbar-brand img{
+    height: 50px;
+    width: 80px;
+}
+.my-nav .navbar-brand:hover{
+    color:  rgb(189, 208, 243);
+}
+
+.my-nav .nav-link{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+   
+    
+}
+.my-nav .nav-link:hover{
+    color:rgb(34, 55, 238) ;
+}
+
+.my-nav #nav-button{
+    background-color: rgb(218, 230, 240);
+    border-radius: 5px;
+}
+
+.my-nav #nav-button span{
+    color: black;
+}
+.my-nav .time p{
+
+    font-size: 10px;
+
+}
+
+.kunal .navbar-toggler{
+    background-image: url(shinejobs1.jpg);
+    
+    
+}
+.kunal .navbar-toggler-icon{
+   background-image: url(shinejobs1.jpg);
+
+    
+}
+.city-jobs{
+    background-color: rgb(255, 255, 255);
+    
+    box-shadow: 5px 5px 5px 5px rgb(221, 221, 221);
+   
+  
+
+  
+}
+
+.city-jobs ul li{
+    padding: 5px;
+    font-size: 13px;
+    margin-left: -20px;
+    
+}
+.city-jobs ul li a:hover{
+    
+    text-decoration: none;
+    color: indigo;
+}
+.footer p{
+    font-weight: 700;
+    color: rgb(138, 138, 138);
+    text-align: right;
+}
+
+.footer a{
+    text-decoration: none;
+    
+}
+.footer h6{
+    font-size: 15px;
+    
+}
+.footer h6 i{
+    font-size: 23px;
+}
+
+.digital-marketing-course {
+    background-image: url(shine3.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+    
+    
+    
+}
+.digital-marketing-course h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 70px;
+    line-height: 3.7rem;
+  text-align: center;
+  color: rgb(55, 63, 63);
+  letter-spacing: 0.3rem;
+
+  transform-origin: bottom;
+    animation: rotate 2s ease 1;
+
+
+}
+.enrol button{
+    background-color: black;
+    
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+
+
+
+@keyframes rotate{
+   0%{transform:  perspective(600px) rotatey(90deg); transform-origin: left;}
+   100%{transform: perspective(600px) rotatey(0deg); transform-origin: left;}
+}
+
+.digital-marketing-course img{
+    height: 150px;
+    width: 200px;
+    margin-top: 120px;
+    text-align: center;
+}
+.form-submission {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px 4px grey;
+    width: 280px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.form-submission input{
+    width: 80%;
+    margin-left: 23px;
+    border:2px solid rgb(197, 94, 238);
+    margin-top: 12px;
+}
+.form-submission h4{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+}
+.form-submission button{
+    background-color: rgb(197, 94, 238);
+   margin: 25px;
+    width:80%;
+}
+.dm-head h2{
+    font-weight: 700;
+    font-size: 31px;
+    margin-left: 35px;
+
+}
+.text{
+    margin-left: 30px;
+}
+.more-text{
+    display: none;
+}
+.read-more-btn{
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+.form-marketing {
+    background-color: rgb(255, 255, 255);
+    height: 240px;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px 4px grey;
+    width: 280px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.form-marketing h4{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+}
+.form-marketing span i{
+    font-size: 20px;
+    color: blue;
+    margin-right: 10px;
+}
+.form-marketing span {
+    font-size: 14px;
+font-weight: 700;
+margin-left: 10px;
+line-height: 0.5rem;
+}
+.form-marketing p{
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.form-marketing button{
+    background-color: rgb(197, 94, 238);
+   margin: 25px;
+    width:80%;
+}
+
+.learn-head h2{
+    font-weight: 700;
+    font-size: 31px;
+    margin-left: 35px;
+    
+
+}
+.learn-head p{
+    margin-left: 35px;
+    color: grey;
+
+}
+.learn-head p i{
+    color: green;
+}
+
+.skills-gain{
+    background-color: rgb(243, 249, 253);
+    height: 400px;
+}
+.skills-gain h2{
+    font-weight: 700;
+    font-size: 31px;
+    margin-left: 35px;
+    
+
+}
+.course-btn{
+    margin-left: 40px;
+}
+.course-btn button{
+   
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px 26px;
+    margin:10px;
+   
+}
+.skills-gain img{
+    width: 350px;
+    height: 300px;
+    margin-left: 100px;
+   
+   
+}
+.skills-gain img:hover{
+    transform: scale(1.1);
+
+}
+
+.dm-courses-btn button{
+    background-color: rgb(207, 225, 254);
+    font-weight: 600;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    
+    border-radius: 70px;
+
+}
+.certificate-amount{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px 4px rgb(201, 200, 200);
+    width: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.certificate-amount-inner{
+    background-color: rgb(241, 248, 252);
+    height: 75px;
+}
+.certificate-amount img{
+    width: 70px;
+    height: 60px;
+    display: inline;
+}
+.certificate-amount-inner span{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    
+   
+}
+.certificate-amount-rating span{
+    margin-left: 30px;
+    
+}
+.certificate-amount-rating i{
+    color: goldenrod;
+
+}
+.certificate-amount-rating p{
+    margin-left: 30px;
+    
+    
+    
+}
+.certificate-amount-rating h3 {
+    margin-left: 30px;
+}
+.certificate-amount-rating h3 i{
+    color: black;
+}
+
+.other-skills {
+    background-color: rgb(243, 249, 253);
+    height: 200px;
+}
+.other-skills h2{
+    font-weight: 700;
+    font-size: 31px;
+    margin-left: 35px;
+    
+}
+.other-skills button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+    padding: 5px 36px;
+    margin:10px;
+    margin-top: 20px;
+   
+
+}
+.also-check{
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    box-sizing: content-box;
+    box-shadow: 4px 4px 4px 4px rgb(201, 200, 200);
+    width: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-right: 20px;
+
+}
+.also-check-inner h3{
+    padding-top: 10px;
+    margin-left: 20px;
+    font-weight: 700;
+  
+    
+}
+.also-check-inner p{
+    color: rgb(101, 154, 223);
+    margin-left: 20px;
+    
+}
+.also-img img{
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.why-us{
+    border: 2px solid rgb(214, 214, 214);
+    height: 300px;
+    border-left: none;
+    border-top: none;
+    
+}
+
+
+
+.why-us h2{
+    font-weight: 800;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.why-us p{
+   
+    color: rgb(124, 124, 124);
+    text-align: center;
+    position: relative;
+    top: 103px;
+    
+
+}
+.frequently-asked h2{
+    margin-left: 30px;
+}
+
+.frequently-asked ul li{
+    margin-left: 30px;
+}
+.frequently-asked{
+    background-color: rgb(243, 249, 253);
+    height: auto;
+
+}
+.frequently-asked img{
+    height: 220px;
+    width: 300px;
+    margin-top: 50px;
+}
+.footer-dm{
+    background-color: rgb(243, 249, 253);
+    height: 280px;
+}
+.footer-abtus span{
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    margin: 20px;
+
+}
+.footer-abtus-icon span i{
+    font-size: 30px;
+    color: grey;
+    font-weight: 600;
+    margin-top: 20px;
+    margin: 10px;
+    
+}
+.footer-trend h4{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.footer-link span a{
+    color: grey;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:200px) and (max-width:575.98px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+
+
+    .search-icon input{
+        width: 100vw;
+        display: block;
+        
+    }
+
+    .city-jobs{
+        background-color: rgb(255, 255, 255);
+        
+        box-shadow: 5px 5px 5px 5px rgb(221, 221, 221);
+        
+      
+    }
+    .city-jobs  h4{
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    .city-jobs ul li{
+        padding: 5px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .city-jobs ul li a:hover{
+        
+        text-decoration: none;
+        color: indigo;
+    }
+    .footer p{
+        font-weight: 700;
+        color: rgb(138, 138, 138);
+        text-align: left;
+        margin-left: 10px;
+    }
+    .footer h6{
+        font-size: 15px;
+        margin-top: 20px;
+        
+    }
+    .digital-marketing-course h2{
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 70px;
+        line-height: 3.7rem;
+      text-align: center;
+      color: rgb(55, 63, 63);
+      letter-spacing: 0.5rem;
+    
+      transform-origin: bottom;
+        animation: rotate 2s ease 1;
+    
+    
+    }
+    .enrol button{
+        background-color: black;
+        
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    
+    
+    
+    
+    @keyframes rotate{
+       0%{transform:  perspective(600px) rotatey(90deg); transform-origin: left;}
+       100%{transform: perspective(600px) rotatey(0deg); transform-origin: left;}
+    }
+
+    .form-submission {
+        background-color: rgb(255, 255, 255);
+        height:300px;
+        box-sizing: content-box;
+        box-shadow: 4px 4px 4px 4px grey;
+        width: auto;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+
+    .digital-marketing-course img{
+       display: none;
+    }
+
+    .form-submission input{
+        width: 90%;
+        margin-left: 23px;
+        border:2px solid rgb(197, 94, 238);
+        margin-top: 12px;
+    }
+    .form-submission h4{
+        font-weight: 700;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .form-submission button{
+        background-color: rgb(197, 94, 238);
+       margin: 25px;
+        width:80%;
+        margin-left: 40px;
+    }
+    .dm-head h2{
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    .form-marketing span {
+        font-size: 14px;
+    font-weight: 700;
+    margin-left: 40px;
+    line-height: 0.5rem;
+    }
+    .form-marketing p{
+        font-size: 12px;
+        margin-left: 70px;
+    }
+
+    .form-marketing input{
+        width: 90%;
+        margin-left: 23px;
+        border:2px solid rgb(197, 94, 238);
+        margin-top: 12px;
+    }
+    .form-marketing h4{
+        font-weight: 700;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .form-marketing button{
+        background-color: rgb(197, 94, 238);
+       margin: 25px;
+        width:80%;
+        margin-left: 40px;
+    }
+    .form-marketing {
+        background-color: rgb(255, 255, 255);
+        height:300px;
+        box-sizing: content-box;
+        box-shadow: 4px 4px 4px 4px grey;
+        width: auto;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+    .learn-head p{
+        margin-left: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .learn-head h2{
+       margin-top: 30px;
+       
+    
+    }
+    .course-btn{
+        margin-left: 0px;
+    }
+
+    .skills-gain{
+        background-color: rgb(243, 249, 253);
+        height: 700px;
+    }
+    .skills-gain img{
+       display: none;
+       
+       
+    }
+    .certificate-amount  span{
+        font-size: 13px;
+        font-weight: bold;
+        
+       
+    }
+    .certificate-amount{
+        background-color: rgb(255, 255, 255);
+        height: 200px;
+        box-sizing: content-box;
+         box-shadow: 4px 4px 4px 4px rgb(201, 200, 200);
+        width: auto;
+        margin-top: 40px;
+        border-radius: 5px;
+       margin-left: -0px;
+       overflow-x: hidden;
+      
+    
+    }
+    .certificate-amount-rating span{
+        margin-left: 30px;
+        
+    }
+    .certificate-amount-rating i{
+        color: goldenrod;
+    
+    }
+    .certificate-amount-rating p{
+        margin-left: 30px;
+        
+        
+        
+    }
+    .certificate-amount-rating h3 {
+        margin-left: 30px;
+    }
+    .certificate-amount-rating h3 i{
+        color: black;
+    }
+    .certificate-amount-inner{
+        background-color: rgb(241, 248, 252);
+        height: 75px;
+        width: auto;
+    }
+    .other-skills h2{
+        font-weight: 700;
+        font-size: 25px;
+      
+        text-align: center;
+    }
+    .also-check{
+        background-color: rgb(255, 255, 255);
+        height: 300px;
+        box-sizing: content-box;
+        box-shadow: 4px 4px 4px 4px rgb(201, 200, 200);
+        width: auto;
+        margin-top: 30px;
+        border-radius: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    
+    }
+    .also-img img{
+       display: none;
+    }
+    .why-us{
+        border: 2px solid black;
+        height: 200px;
+        border-left: none;
+        border-top: none;
+    }
+    .why-us h2{
+        font-weight: 800;
+        color: rgb(119, 119, 119);
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+    .why-us p{
+       
+        color: rgb(124, 124, 124);
+        text-align: center;
+        position: relative;
+        top: 53px;
+        
+    
+    }
+.why-us{
+           border: none;
+            
+        }
+
+        .frequently-asked h2{
+            margin-left: 0px;
+            text-align: center;
+        }
+        
+        .frequently-asked ul li{
+            margin-left: 0px;
+        }
+        .frequently-asked img{
+           display: none;
+        }
+        .footer-abtus span{
+            font-size: 20px;
+            color: gray;
+            font-weight: 600;
+            margin: 0;
+            overflow-x: hidden;
+            display: block;
+            text-align: center;
+            
+         
+        
+        }
+        .footer-abtus-icon span i{
+        display: none;
+            
+        }
+        .footer-trend h4{
+            margin-top: 30px;
+            margin-left: 0px;
+            font-weight: 600;
+            overflow-x: hidden;
+        }
+
+        .footer-link span a{
+            color: grey;
+            text-decoration: none;
+            overflow-x: hidden;
+        }
+        .footer-dm{
+            background-color: rgb(243, 249, 253);
+            height: 680px;
+        }
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+       
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
